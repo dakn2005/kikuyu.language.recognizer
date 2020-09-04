@@ -1,4 +1,4 @@
-% ['/Users/daudi/Desktop/prolog/recognizer1.pl']
+% ['/Users/daudi/Desktop/prolog/recognizer1.pl'].
 
 % Example IV
 % ------------
