@@ -25,24 +25,13 @@ verb_phrase --> pronoun, verb.
 % verb --> verb, pronoun
 adverb_phrase --> adverb, noun.
 
-/*
+
 interjection --> [naake];[atiriri];[ta];[o];[na];[].
 noun --> [ngai];[utheri];[ikinya];[ciugo];[daudi];[kiambiriria];[iguru];[thi];[].
 verb --> [akiuga];[thia];[nikugie];[gukigia];[njitaguo];[kinyukia];[wicirie];[ciugite];[niombire].
 pronoun --> [nie];[icio];[].
 adjective --> [hanini].
 adverb --> [uria].
-*/
-
-/*
-*/
-interjection --> [ha];[].
-noun --> [maritwa];[kimana];[ikinya];[uikare];[].
-verb --> [njitaguo];[kinyukia];[thie].
-pronoun --> [nie];[haria];[].
-adjective --> [].
-adverb --> [].
-
 
 /*
 sentence([kinyukia,ikinya],[]).
@@ -50,7 +39,18 @@ sentence([ta, thia, thia, hanini],[]).
 sentence([nie,njitaguo,daudi],[]).
 sentence([wicirie,o,hanini,uria,ciugo,icio,ciugite],[]).
 sentence([o,kiambiriria,ngai,niombire,iguru,na,thi],[]).
+*/
 
+/*
+interjection --> [ha];[].
+noun --> [maritwa];[kimana];[ikinya];[uikare];[].
+verb --> [njitaguo];[kinyukia];[thie].
+pronoun --> [nie];[haria];[].
+adjective --> [].
+adverb --> [].
+*/
+
+/*
 sentence([ha,maritwa,nie,njitaguo,kimana],[]).
 sentence([thie,uikare,haria],[]).
 */
